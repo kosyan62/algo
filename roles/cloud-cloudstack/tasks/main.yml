@@ -15,7 +15,7 @@
     - name: Security group created
       cs_securitygroup:
         name: "{{ algo_server_name }}-security_group"
-        description: AlgoVPN security group
+        description: MyShinyVPN security group
       register: cs_security_group
 
     - name: Security rules created

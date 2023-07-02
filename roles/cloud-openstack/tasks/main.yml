@@ -10,7 +10,7 @@
   openstack.cloud.security_group:
     state: "{{ state|default('present') }}"
     name: "{{ algo_server_name }}-security_group"
-    description: AlgoVPN security group
+    description: MyShinyVPN security group
   register: os_security_group
 
 - name: Security rules created
